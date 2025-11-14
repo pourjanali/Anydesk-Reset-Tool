@@ -27,7 +27,7 @@ The batch tool automatically:
 2. Deletes configuration folders  
 3. Clears cache & temporary files  
 4. Resets registry values connected to AnyDesk  
-5. Restarts clean instance on next open  
+5. Restarts clean instance on next open without losing data and sessions
 
 ---
 
@@ -35,7 +35,7 @@ The batch tool automatically:
 1. Download the repository or just the `anydesk.bat` file  
 2. **Right-click → Run as Administrator**  
 3. Wait until the script finishes  
-4. Reopen AnyDesk — it will behave like a fresh install  
+4. Reopen AnyDesk — it will behave like a fresh install without losing data and sessions
 
 ---
 
@@ -43,15 +43,6 @@ The batch tool automatically:
 - Your **previous configuration will be removed**  
 - You will need to re-enter your AnyDesk settings after reset  
 - This does **NOT** remove the AnyDesk program itself  
-
----
-
-## 🧩 File Structure
-📂 anydesk-reset-tool
-├── anydesk.bat # The reset script
-├── README.md # Documentation
-├── LICENSE # Optional MIT license
-└── .gitignore # Optional
 
 ---
 
